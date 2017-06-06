@@ -1,0 +1,69 @@
+$textcolor: lighten(black, 30%);
+$bgcolor: darken(white, 2%);
+$linkcolor: #00B1DF;
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+  background-color: $bgcolor;
+}
+
+.letter {
+  color: $textcolor;
+	font-size: 1em;
+  line-height: 1.45em;
+  font-family: 'Alegreya Sans', Helvetica, sans-serif;
+
+	p {
+		margin-bottom: 1em;
+	}
+}
+
+a {
+  color: $linkcolor;
+}
+
+.flexcontainer {
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.centerdiv {
+  max-width: 500px;
+}
+
+.letter {
+}
+
+.sm-logo {
+  width: 50px;
+}
+
+@media (max-width: 500px) {
+	.flexcontainer {
+		align-items: start;
+  }
+
+  .letter {
+    margin: 50px 0px;
+    width: 300px;
+  }
+
+}
+
+.lt-end {
+  text-align: right;
+}
+
+.email {
+  color: $linkcolor;
+  text-decoration: underline;
+}
+
+b {
+  font-weight: bold;
+}
