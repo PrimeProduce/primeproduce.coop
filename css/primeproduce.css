@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  background-color: #f1fdf3; }
+  background-color: #f5fef7; }
 
 .letter {
   color: #4d4d4d;
@@ -14,13 +14,19 @@ body {
 
 a {
   color: #00B1DF; }
+  a.highlightbutton {
+    padding: 5px 10px;
+    background-color: #FBB040;
+    color: #EB207D;
+    border-radius: 4px;
+    font-weight: bold; }
 
 .flexcontainer {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   overflow-y: auto; }
   .flexcontainer > div {
     margin: auto; }
