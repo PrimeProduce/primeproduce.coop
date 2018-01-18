@@ -55,3 +55,21 @@ a {
 
 b {
   font-weight: bold; }
+
+.facade_image {
+  position: relative;
+  width: 100%;
+  overflow: auto; }
+  .facade_image img {
+    border-radius: 10px;
+    max-width: 100%;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    clear: both; }
+  .facade_image img.day {
+    position: absolute;
+    top: 0px; }
+    .facade_image img.day:hover {
+      opacity: 0; }
