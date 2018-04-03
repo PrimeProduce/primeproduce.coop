@@ -33,24 +33,25 @@ a {
 }
 
 .flexcontainer {
+  margin: 100px 0px;
 	min-height:100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-  overflow-y: auto;
 
   & > div {
     margin: auto; // horizontal and vertical align
   }
 }
 
-.centerdiv {
-  max-width: 500px;
+#letterdiv, #menudiv {
+  max-width: 40vw;
 }
 
+
 .letter {
-  margin: 50px 0px;
+  margin-bottom: 40px;
 }
 
 .sm-logo {
@@ -85,7 +86,7 @@ b {
   position: relative;
 
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
 
   img {
     border-radius: 10px;
@@ -106,4 +107,12 @@ b {
 			opacity:0;
 	  }
   }
+}
+
+.p-center {
+  text-align: center;
+  padding: 20px 0px;
+}
+.p-float-right {
+  float: right;
 }
