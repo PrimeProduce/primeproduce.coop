@@ -2,13 +2,13 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  background-color: #f5fef7; }
+  background-color: #f5fef7;
+  font-family: 'Alegreya Sans', Helvetica, sans-serif; }
 
 .letter {
   color: #4d4d4d;
   font-size: 1em;
-  line-height: 1.45em;
-  font-family: 'Alegreya Sans', Helvetica, sans-serif; }
+  line-height: 1.45em; }
   .letter p {
     margin-bottom: 1em; }
 
@@ -44,8 +44,8 @@ a {
   .flexcontainer {
     align-items: start; }
 
-  .letter {
-    width: 300px; } }
+  #letterdiv, #menudiv {
+    max-width: 90vw; } }
 .lt-end {
   text-align: right; }
 
